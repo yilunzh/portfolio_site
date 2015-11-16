@@ -1,3 +1,7 @@
 .img_container {
 	height: 150px;
 }
+
+.header {
+	text-align: right;
+}
