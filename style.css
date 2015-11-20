@@ -1,7 +1,29 @@
-.img_container {
-	height: 150px;
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+}
+
+.logo_container{
+	margin-top: 15px;
+	height: 70px;
 }
 
 .header {
 	text-align: right;
+}
+
+.img_container {
+	height: 130px;
+}
+
+.description {
+	text-align: center;
+}
+
+.footer {
+	margin: 30px;
 }

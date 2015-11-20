@@ -5,14 +5,15 @@
 	<title>My Portfolio</title>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-2">
+		<div class="row header">
+			<div class="col-md-2 logo_container">
 				<img class="img-responsive" src="img/ninja.png">
 			</div>
 			<div class="col-md-10 header">
@@ -32,27 +33,35 @@
 			<h2>More About Me</h2>
 			<div class="col-md-4">
 				<div class="img_container">
-					<img class="img-responsive" src="img/carvana-logo.png">
+					<a href="http://carvana.com"><img class="img-responsive" src="img/carvana-logo.png"></a>
 				</div>
-				<h3>My Work</h3>
-				<a href="http://carvana.com">carvana.com</a>
+				<div class="description">
+					<h3>Professional Work</h3>
+					<a href="http://carvana.com">carvana.com</a>
+				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="img_container">
-					<img class="img-responsive" src="img/my-muse.jpg">
+					<a href="http://yilunzh.com"><img class="img-responsive" src="img/my-muse.jpg"></a>
 				</div>
-				<h3>My Muse</h3>
-				<a href="http://yilunzh.com">yilunzh.com</a>
+				<div class="description">
+					<h3>Random Muse</h3>
+					<a href="http://yilunzh.com">yilunzh.com</a>
+				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="img_container">
-					<img class="img-responsive" src="img/side_project.jpg">
+					<a href="https://github.com/yilunzh"><img class="img-responsive" src="img/side_project.jpg"></a>
 				</div>
-				<h3>Random Projects</h3>
-				<a href="https://github.com/yilunzh">https://github.com/yilunzh</a>
+				<div class="description">
+					<h3>Fun Projects</h3>
+					<a href="https://github.com/yilunzh">https://github.com/yilunzh</a>
+				</div>
 			</div>
 		</div>
-	</div>
 
+		<div class="row footer">
+		</div>
+	</div>
 </body>
 </html>
